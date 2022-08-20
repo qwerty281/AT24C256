@@ -15,7 +15,7 @@ class AT24C256 {
   AT24C256();
 
   void write(byte val, int address);
-  int read(int address);
+  byte read(int address);
   
 
   private:

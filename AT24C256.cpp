@@ -19,7 +19,7 @@ void AT24C256::write (byte val, int address )
   delay(5);
 }
 
-int AT24C256::read(int address ) 
+byte AT24C256::read(int address ) 
 {
   byte rData = 0xFF;
  
